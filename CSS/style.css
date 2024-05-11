@@ -28,12 +28,12 @@ body{
     text-align: center;
 }
 
-.toplink{
+.topnav{
     background-color: black;
     overflow: hidden;
 }
 
-.toplink a{
+.topnav a{
     color: azure;
     text-decoration: none;
     padding: 14px 16px;
@@ -42,13 +42,13 @@ body{
     text-align: left;
 }
 
-.toplink a:hover{
+.topnav a:hover{
     color: rgb(19, 15, 15);
     background-color: azure;
     text-decoration: none;
 }
 
-.toplink-right{
+.topnav-right{
     float: right;
 }
 
