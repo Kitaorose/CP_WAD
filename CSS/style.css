@@ -7,3 +7,103 @@ h2{
     font-weight: bold;
 }
 
+img{
+    width: 40%;
+    float: left;
+    padding-right: 10px;
+}
+
+body{
+    background-color: blue;
+}
+
+*{
+    box-sizing: border-box;
+
+}
+
+.banner{
+    background-color: brown;
+    padding: 20px;
+    text-align: center;
+}
+
+.toplink{
+    background-color: black;
+    overflow: hidden;
+}
+
+.toplink a{
+    color: azure;
+    text-decoration: none;
+    padding: 14px 16px;
+    display: block;
+    float: left;
+    text-align: left;
+}
+
+.toplink a:hover{
+    color: rgb(19, 15, 15);
+    background-color: azure;
+    text-decoration: none;
+}
+
+.toplink-right{
+    float: right;
+}
+
+.row::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.content{
+    float: left;
+    width: 70%;
+    padding: 15px;
+}
+
+.side_bar{
+    float: right;
+    width: 30%;
+    padding: 15px;
+}
+
+.footer{
+    background-color: burlywood;
+    padding: 20px;
+    text-align: center;
+    color: rgb(78, 223, 223);
+}
+ 
+@media screen and (max width:700% ){
+    .content, .side_bar, img{
+        width: 100%;
+    } 
+}
+
+table{
+    border: 1px solid #373737;
+    border-collapse: collapse;
+    width: 70%;
+}
+td{
+    border: 1px solid #373737;
+    padding: 5px;
+    text-align: left;
+}
+th{
+    background-color: #373737;
+    color: azure;
+    border: 1px solid #373737;
+    padding: 5px;
+    text-align: left;
+}
+tr:nth-child(odd){
+    background-color: blue;
+}
+tr:hover{
+    background-color: aliceblue;
+}
+
