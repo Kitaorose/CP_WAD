@@ -1,0 +1,14 @@
+h2{
+    text-align: left;
+    color: aqua;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: bold;
+}
+
+img{
+    width: 40%;
+    float: left;
+    padding-right: 10px;
+}
