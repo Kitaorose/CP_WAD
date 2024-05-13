@@ -13,30 +13,6 @@ img{
     padding-right: 10px;
 }
 
-.topnav{
-    background-color: black;
-    overflow: hidden;
-}
-
-.topnav a{
-    color: azure;
-    text-decoration: none;
-    padding: 14px 16px;
-    display: block;
-    float: left;
-    text-align: left;
-}
-
-.topnav a:hover{
-    color: rgb(19, 15, 15);
-    background-color: azure;
-    text-decoration: none;
-}
-
-.topnav-right{
-    float: right;
-}
-
 input[type = text], [type = email]{
     width: 50%;
     padding: 12px, 16px;
