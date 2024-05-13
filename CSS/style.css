@@ -1,3 +1,6 @@
+.contact_form label{
+    font-size: 1.8em;
+}
 
 input[type = text], [type = email]{
     width: 50%;
@@ -17,7 +20,4 @@ input[type=button]{
     color: azure;
     box-sizing: border-box;
     margin: 8px, 0;
-}
-.contacts_form label{
-    font-size: 1.0rem;
 }
