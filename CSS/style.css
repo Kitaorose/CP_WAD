@@ -107,3 +107,25 @@ tr:hover{
     background-color: aliceblue;
 }
 
+input[type = text], [type = email]{
+    width: 50%;
+    padding: 12px, 16px;
+    font-size: 0.9em;
+    border-radius: 7px;
+    border: 2px solid #101010;
+}
+
+input[type=button]{
+    width: 40%;
+    padding: 12px, 16px;
+    font-size: 1.6em;
+    border-radius: 4px;
+    border: 2px solid #0b0a0a;
+    background-color: blue;
+    color: azure;
+    box-sizing: border-box;
+    margin: 8px, 0;
+}
+.contacts_form label{
+    font-size: 1.0rem;
+}
