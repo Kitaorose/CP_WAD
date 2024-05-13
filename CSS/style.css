@@ -13,23 +13,6 @@ img{
     padding-right: 10px;
 }
 
-body{
-    background-color: blue;
-    margin: 0;
-}
-
-*{
-    box-sizing: border-box;
-
-}
-
-.banner{
-    background-color: coral;
-    padding: 20px;
-    text-align: center;
-    color: rgb(135, 103, 103);
-}
-
 .topnav{
     background-color: black;
     overflow: hidden;
@@ -52,40 +35,6 @@ body{
 
 .topnav-right{
     float: right;
-}
-
-.row::after{
-    content: "";
-    display: block;
-    clear: both;
-}
-
-.content{
-    float: left;
-    width: 70%;
-    padding: 15px;
-}
-
-.side_bar{
-    float: right;
-    width: 30%;
-    padding: 15px;
-}
-.index_img{
-    width: 40%;
-}
-
- 
-@media screen and (max-width:700px){
-    .content, .side_bar, img{
-        width: 100%;
-    } 
-}
-.footer{
-    background-color: burlywood;
-    padding: 20px;
-    text-align: center;
-    color: rgb(78, 223, 223);
 }
 
 input[type = text], [type = email]{
