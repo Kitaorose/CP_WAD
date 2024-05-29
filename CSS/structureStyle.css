@@ -48,4 +48,6 @@ body{
     padding: 20px;
     text-align: center;
     font-size: smaller;
+    float: inline-end;
+    
 }
