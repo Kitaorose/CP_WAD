@@ -19,6 +19,7 @@ body{
     content: "";
     display: block;
     clear: both;
+    image-orientation: url(https://www.shutterstock.com/search/room);
 }
 
 .content{
