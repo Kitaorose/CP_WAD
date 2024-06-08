@@ -9,11 +9,10 @@ body{
 }
 
 .banner{
-    background-color: rgb(177, 137, 88);
+    background-color: rgb(155, 120, 75);
     padding: 20px;
     display: block;
     text-align: center;
-    color: rgb(120, 64, 24);
 }
 
 .row::after{
@@ -40,15 +39,17 @@ body{
 
  
 @media screen and (max-width:700px){
-    .content, .side_bar, img{
+     .side_bar, img{
         width: 100%;
     } 
+    .content{
+        width: 100%;
+    }
 }
 .footer{
     background-color: rgb(45, 75, 89, 20%);
     padding: 20px;
     text-align: center;
     font-size: smaller;
-    float: inline-end;
-    
+
 }
