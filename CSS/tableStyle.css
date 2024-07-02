@@ -16,7 +16,7 @@ th{
     text-align: left;
 }
 tr:nth-child(odd){
-    background-color: blue;
+    background-color: burlywood;
 }
 tr:hover{
     background-color: aliceblue;
