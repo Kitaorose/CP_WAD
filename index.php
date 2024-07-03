@@ -11,6 +11,15 @@
         <a href="index.html">Home</a>
         <a href="about.html">About Us</a>
         <a href="activities.html">Activities</a> 
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Activities</a></li>
+                <li><a class="dropdown-item" href="#">Activity rates</a></li>
+                </ul>
+            </li>
         <a href="rooms.html">Rooms</a>
         <a href="Contact.html">Contact us</a>
         <div class="topnav-right">
