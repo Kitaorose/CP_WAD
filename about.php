@@ -7,13 +7,6 @@
     <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
-    <div class="topnav"> 
-        <a href="index.html">Home</a> 
-        <a href="about.html">About Us</a> 
-        <a href="activities.html">Activities</a>
-        <a href="rooms.html">Rooms</a>
-        <a href="Contact.html">Contact us</a>
-    </div>
 
     <div class="banner"> 
         <h1>Welcome to Bamboo by the Lake Resort</h1>
