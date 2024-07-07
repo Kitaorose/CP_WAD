@@ -58,7 +58,7 @@
             <br>
 
     </div>
-   <div class="footer" style="margin-block-start: 1400px;">
+   <div class="footer" style="margin-block-start: 1000px;">
         &copy;2024|Bamboo by The Lake.|All rights reserved.
    </div>
 
