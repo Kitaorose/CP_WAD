@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
+    <?php
+    include_once ("Templates/nav.php");
+    ?>
 
     <div class="banner"> 
         <h1>Welcome to Bamboo by the Lake Resort</h1>
