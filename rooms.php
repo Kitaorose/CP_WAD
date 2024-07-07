@@ -4,16 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rooms</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
-    <div class="topnav">
-        <a href="index.html">Home</a> | 
-        <a href="about.html">About Us</a> | 
-        <a href="activities.html">Activities</a> |
-        <a href="rooms.html">Rooms</a>|
-        <a href="Contact.html">Contact us</a>
-    </div>
+    <?php
+        include_once ("Templates/nav.php");
+        ?>
     <div class="banner">
         <h1>Bamboo By The Lake Resort</h1>
     </div>
