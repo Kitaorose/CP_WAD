@@ -23,6 +23,9 @@
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="Contact.php">Contact us</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="view_messages.php">View messages</a>
+        </li>
        </ul>
         <ul class="nav justify-content-end">
         <li class="nav-item">
