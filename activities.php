@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Activities</title>
+    <!--page style links--> 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="CSS/style.css">
+    <!--End of style links--> 
 </head>
 <body>
     <?php
-    include_once ("Templates/nav.php");
+    include_once ("Templates/nav.php");//navigation bar
     ?>
     <div class="banner">
         <h1>Bamboo By The Lake Resort</h1>
@@ -42,8 +44,9 @@
 <p>Ride the waves of adventure and beautiful breeze.</p>
 
 <h2> Activity Rates</h2>
+<!-- beginning of the activity rates table-->
 <table>
-    <tr>
+    <tr> <!--Table first row-->
         <th>Activity</th>
         <th>Cost</th>
         <th>Threshold</th>
@@ -68,7 +71,7 @@
         <td>KES 3000</td>
         <td>per person, 10 minutes</td>
     </tr>
-
+<!--end of the table--> 
 </table>
     <div class="footer">
         &copy;2024|Bamboo by The Lake.|All rights reserved.
