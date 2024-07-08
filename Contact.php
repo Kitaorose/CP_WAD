@@ -9,8 +9,8 @@
 </head>
 <body>
     <?php
-        require_once ("includes/db_connect.php");
-        include_once ("Templates/nav.php");
+        require_once ("includes/db_connect.php");// connection to the database
+        include_once ("Templates/nav.php");//navigation bar
 
         if(isset($_POST["send_message"])){
 
@@ -22,7 +22,7 @@
         
             $insert_message = "INSERT INTO messages (sender_name,sender_phone_number, sender_email,subject_line, text_message)
             VALUES ('$fn', '$Pn', '$Em', '$s','$msg')";
-        
+        //inserting data into the database
             if ($conn->query($insert_message) === TRUE) {
                 header("Location: view_messages.php");
                 exit();
@@ -36,6 +36,7 @@
     <h1>Contact Us</h1>
     <p>Have any queries or ideas concerning our facilities?<br> Please leave us a message and we will be glad to respond ASAP.</p>
     <h3>Details</h3>
+    <!--user interaction inerface form-->
 <form action="<?php print htmlspecialchars($_SERVER["PHP_SELF"]);?>"method="post" class="contacts_form label">
     <label for="fn">Fullnames</label><br>
     <input type="text" name="fullname" id="fn " placeholder="First & Last Name" required><br><br>
@@ -59,6 +60,7 @@
     <input type="submit" value="Send message" name="send_message"><br><br>
 
     </form>
+    <!--End of user interaction interface-->
    </div>
    <div class="footer">
     &copy;2024|Bamboo by The Lake.|All rights reserved.
