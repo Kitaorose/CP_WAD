@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rooms</title>
+    <!--page style links--> 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="CSS/style.css">
+    <!--End of style links--> 
 </head>
 <body>
     <?php
-        include_once ("Templates/nav.php");
+        include_once ("Templates/nav.php");//Navigation bar
         ?>
     <div class="banner">
         <h1>Bamboo By The Lake Resort</h1>
@@ -43,7 +45,9 @@
         couples seeking a romantic getaway or anyone yearning for a room with a view 
         that soothes the soul.</p>
     </div>
-    
+    <?php
+    include_once ("Templates/side_bar.php");// side bar
+    ?>
     <div class="footer">
         &copy;2024|Bamboo by The Lake.|All rights reserved.
     </div>
