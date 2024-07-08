@@ -16,9 +16,9 @@
             $DelId=$_GET["DelId"]; 
         
             // sql to delete a record
-            $del_mes = "DELETE FROM messages WHERE messageId='$DelId' LIMIT 1";
+            $del_msg = "DELETE FROM messages WHERE messageId='$DelId' LIMIT 1";
         
-            if ($conn->query($del_mes) === TRUE) {
+            if ($conn->query($del_msg) === TRUE) {
                 header("Location:view_messages.php");
                 exit();
             } else {

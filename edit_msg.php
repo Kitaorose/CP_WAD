@@ -20,13 +20,12 @@
         if(isset($_POST["update_message"])){
 
             $fn= mysqli_real_escape_string($conn,$_POST["fullname"]);
-            $Pn= mysqli_real_escape_string($conn,$_POST["phone number"]);
             $Em= mysqli_real_escape_string($conn,$_POST["email"]);
             $s= mysqli_real_escape_string($conn,$_POST["Subject_line"]);
-            $mes= mysqli_real_escape_string($conn,$_POST["message"]);
+            $msg= mysqli_real_escape_string($conn,$_POST["message"]);
             $messageId= mysqli_real_escape_string($conn,$_POST["messageId"]);
         
-            $update_message = "UPDATE messages SET sender_name= '$fn', sender_email = '$Em', subject_line ='$s', text_message= '$mes' WHERE messageId= '$messageId' LIMIT 1";
+            $update_message = "UPDATE messages SET sender_name= '$fn', sender_email = '$Em', subject_line ='$s', text_message= '$msg' WHERE messageId= '$messageId' LIMIT 1";
 
         
             if ($conn->query($update_message) === TRUE) {
@@ -56,8 +55,8 @@
                     <option value="review">Review</option>
                 </select><br><br>
 
-    <label for="mes">Message</label><br>
-    <textarea name="message" rows="4" cols= "50" id="mes" required><?php print $spot_msg_row["text_message"];?></textarea><br><br>
+    <label for="msg">Message</label><br>
+    <textarea name="message" rows="4" cols= "50" id="msg" required><?php print $spot_msg_row["text_message"];?></textarea><br><br>
 
     <input type="submit" value="Update Message" name="update_message"><br><br>
     <input type="hidden" name="messageId" value="<?php print $spot_msg_row["messageId"];?>">

@@ -18,10 +18,10 @@
             $Pn= mysqli_real_escape_string($conn,$_POST["phone number"]);
             $Em= mysqli_real_escape_string($conn,$_POST["email"]);
             $s= mysqli_real_escape_string($conn,$_POST["Subject_line"]);
-            $mes= mysqli_real_escape_string($conn,$_POST["send_message"]);
+            $msg= mysqli_real_escape_string($conn,$_POST["send_message"]);
         
             $insert_message = "INSERT INTO messages (sender_name,sender_phone_number, sender_email,subject_line, text_message)
-            VALUES ('$fn', '$Pn', '$Em', '$s','$mes')";
+            VALUES ('$fn', '$Pn', '$Em', '$s','$msg')";
         
             if ($conn->query($insert_message) === TRUE) {
                 header("Location: view_messages.php");
@@ -53,10 +53,10 @@
                     <option value="review">Review</option>
                 </select><br><br>
 
-    <label for="mes">Message</label><br>
-    <textarea name="message" rows="4" cols= "50" id="mes" required>Enter Message</textarea><br><br>
+    <label for="msg">Message</label><br>
+    <textarea name="message" rows="4" cols= "50" id="msg" required>Enter Message</textarea><br><br>
 
-    <input type="submit" value="Send Message" name="send_message"><br><br>
+    <input type="submit" value="Send message" name="send_message"><br><br>
 
     </form>
    </div>
