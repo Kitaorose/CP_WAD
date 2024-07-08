@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
+    <!--page style links--> 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="CSS/style.css">
+    <!--end of style links-->
 </head>
 <body>
     <?php
-    include_once ("Templates/nav.php");
+    include_once ("Templates/nav.php");// navigation bar
     ?>
 
     <div class="banner"> 
@@ -36,23 +38,9 @@
         welcoming you to our little slice of paradise.</p>
         
     </div>
-    <div class="side_bar">
-        <h3>Our Vision</h3>
-    <p>Nestled in the heart of Kenya’s breathtaking natural beauty, 
-        Bamboo by the Lake Resort offers an escape to paradise for those 
-        seeking a tranquil retreat away from the hustle and bustle of 
-        city life. Our resort is a haven of peace, located on the 
-        shores of Lake Victoria surrounded by lush greenery and 
-        teeming with wildlife.</p>
-        <br>
-        <h3>Our Mission</h3>
-        <p>At Bamboo by the Lake Resort, we believe in providing an authentic
-         Kenyan experience combined with the comforts of modern amenities.
-        Our commitment to sustainability and eco-friendly practices ensures 
-        that we live in harmony with the environment.</p>
-        <br>
-   
-    </div>
+    <?php
+    include_once ("Templates/side_bar.php");//side bar
+    ?>
     
     <div class="footer" style="margin-block-start: 1400px;">
         &copy;2024|Bamboo by The Lake.|All rights reserved.
